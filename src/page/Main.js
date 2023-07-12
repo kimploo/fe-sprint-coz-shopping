@@ -1,9 +1,11 @@
-import Header from '../component/Header'
+import Header from "../component/Header";
+import Footer from "../component/Footer";
 
 export default function Main() {
   return (
     <section>
-      <Header></Header>
+      <Header />
+      <Footer />
     </section>
   );
 }

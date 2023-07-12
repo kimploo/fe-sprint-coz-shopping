@@ -1,0 +1,11 @@
+footer {
+    width: 100%;
+	height: 110px;
+	bottom: 0px;
+	position: absolute;
+    color: rgb(136, 136, 136);
+    background-color: rgb(190, 190, 190);
+}
+.footerList{
+    text-align: center;
+}
