@@ -1,6 +1,6 @@
 
 header2 {
-  background-color: rgb(167, 167, 167);
+  background-color: #AAFAFF;
   height: 80px;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@ header2 {
   position: fixed;
   width: 100%;
 }
-.header-2 {
+.header2 {
   display: flex;
   justify-content: space-between;
   align-items: center;

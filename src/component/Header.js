@@ -5,7 +5,7 @@ export default function Header() {
   const [menu, setmenu] = useState(false);
   return (
     <header2>
-      <div className="header-2">
+      <div className="header2">
         <img src="logo.png" alt="" className="img" />
         <span className="navtitle">아이고 맙소사 쇼핑</span>
       </div>
