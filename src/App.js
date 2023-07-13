@@ -6,7 +6,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Main></Main>
-        45기 왕초보 질의응답
       </header>
     </div>
   );
