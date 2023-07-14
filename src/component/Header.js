@@ -2,7 +2,10 @@ import "./header.css";
 import { useState } from "react";
 
 export default function Header() {
-  const [menu, setmenu] = useState(false);
+  const [menu, setMenu] = useState(false);
+  const handleClick = () => {
+    setMenu((prevMenu) => !prevMenu);
+  };
   return (
     <header2>
       <div className="header2">
@@ -10,13 +13,7 @@ export default function Header() {
         <span className="navtitle">대충 만들어본 CRUD</span>
       </div>
       <div className="menu">
-        <img
-          src="hamburger.png"
-          className="img2"
-          onClick={() => {
-            setmenu(!menu);
-          }}
-        />
+        <img src="hamburger.png" className="img2" onClick={handleClick} />
         {menu === true ? (
           <div className="menu">
             <img src="menu.png" alt="" className="menuimg" />
